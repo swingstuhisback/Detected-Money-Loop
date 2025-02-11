@@ -16,12 +16,12 @@ function TransactionManager:Init()
     local tab = gui.get_tab("Detected Money Loop")
     local loopToggle = tab:add_checkbox("Enable Loop")
     script.register_looped("loopToggle", function(script) if(loopToggle:is_enabled()) then
-            self:TriggerTransaction(0x610F9AB4)
-            self:TriggerTransaction(0xCDCF2380)
-            self:TriggerTransaction(0x9145F938)
-            self:TriggerTransaction(0x615762F1)
-            self:TriggerTransaction(0x68341DC5)
-            self:TriggerTransaction(0xEE884170)
+            self:TriggerTransaction(0x615762F1);
+            self:TriggerTransaction(0xCDCF2380);
+            self:TriggerTransaction(0x9145F938);
+            self:TriggerTransaction(0x610F9AB4);
+            self:TriggerTransaction(0x68341DC5);
+            self:TriggerTransaction(0xEE884170);
             script:sleep(5);
             self:TriggerTransaction(0x610F9AB4);
             end end) end
