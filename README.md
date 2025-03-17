@@ -1,4 +1,5 @@
 > [!CAUTION]
+> This script & all of my other scripts will not work anymore due to E&E update.
 > This script is 101% detected. Run at own caution. You have been warned. I am not responsible for anything caused.
 
 ## Prerequisites
